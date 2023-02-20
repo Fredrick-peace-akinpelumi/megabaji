@@ -1,0 +1,90 @@
+
+.car{
+  width: 35rem;
+}
+
+.btnn{
+  position: relative;
+  transform: translateY(-20px);
+  margin-left: 13vh;
+}
+.list{
+  list-style-type: none;
+}
+.copy{
+  display: block;
+  text-align: end;
+  color: rgb(163,163,163);
+}
+
+
+
+.imag{
+  /* margin-left: 20vh; */
+  /* display: none !important; */
+  /* position: fixed; */
+  /* overflow-x: scroll; */
+  display: flex;
+  padding-left: 30vh !important;
+  justify-content: space-around;
+
+}
+.topp{
+  margin-top: 7vh;
+}
+
+
+
+.sign{
+  margin-top: 15vh;
+}
+.caro{
+  margin-top: 10vh;
+}
+
+.spre{
+  width: 100% !important;
+  justify-content: space-between;
+}
+.mouse{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .car{
+    width: 100%;
+  }
+  .none{
+    display: none !important;
+  }
+  .topp{
+    margin-top: 7vh;
+  }
+  .logo{
+    width: 150px !important;
+    height: 50px !important;
+  }
+
+
+  
+  .imag{
+    overflow-x: scroll;
+    display: flex;
+    padding-left: 30vh !important;
+    justify-content: space-around;
+  
+  }
+}
+@media screen and (max-width: 375px) {
+  .logo{
+    width: 120px !important;
+    height: 50px !important;
+  }
+
+  .topp{
+    margin-top: 8vh;
+  }
+  .caro{
+    margin-top: 15vh;
+  }
+}

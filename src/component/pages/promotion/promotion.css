@@ -1,0 +1,30 @@
+.fixed{
+    margin-top: 13vh;
+}
+.shift{
+    margin-top: 20vh;
+}
+
+
+@media screen and (max-width: 768px) {
+  .fixed{
+    margin-top: 13vh;
+  }
+ .shift{
+    margin-top: 25vh;
+ }
+ .car{
+    margin-top: 20px;
+ }
+}
+@media screen and (max-width: 375px) {
+  .fixed{
+    margin-top: 16vh;
+  }
+ .shift{
+    margin-top: 25vh;
+ }
+ .car{
+    margin-top: 20px;
+ }
+}
