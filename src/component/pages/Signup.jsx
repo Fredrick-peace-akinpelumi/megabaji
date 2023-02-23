@@ -17,7 +17,7 @@ const Signup = () => {
           <button className='btn p-2 w-50 text-white ' style={{backgroundColor:"rgb(0,93,171)"}}>Sign up now</button>
               </div>
             </div>
-            <div className='ms-5 d-sm-none d-md-block d-lg-block none'>
+            <div className='ms-5 d-sm-none d-md-none d-lg-block none'>
               <img src={i777} alt="" />
             </div>
           </div>

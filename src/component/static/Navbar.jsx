@@ -39,20 +39,20 @@ const Navbar = () => {
           <a className="nav-link  text-white mouse" aria-current="page"  onMouseOver={()=>setShow(true)} onMouseOut={()=>setShow(false)}>Sport<i className="fa-solid fa-angle-down"></i></a>
 
         </li>
-        <li className="nav-item">
-          <Link className="nav-link text-white" to='/casino'>Casino</Link>
+        <li className="nav-item" >
+          <Link className="nav-link text-white" to='/casino' >Casino</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white" to='/slot'>Slot</Link>
+          <Link className="nav-link text-white" to='/slot' >Slot</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="/">Table</a>
+          <Link className="nav-link text-white" to='/table' >Table</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link text-white" href="/">Lottery</a>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white" to='/promotion'>Promotion</Link>
+          <Link className="nav-link text-white" to='/promotion' >Promotion</Link>
 
         </li>
       </ul>

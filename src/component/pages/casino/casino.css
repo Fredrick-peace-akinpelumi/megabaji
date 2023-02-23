@@ -1,20 +1,21 @@
 .casino{
-    margin-top: 15ch;
+    margin-top: 17ch;
 }
 
 .filter{
     background-color: black;
     opacity: 0.7;
+    /* width: 80% !important; */
 }
 .but{
     background-color: white !important;
-    margin-left: 30vh;
+    margin-left: 25vh;
 }
 .posi{
     position: relative;
     background-image: url('../../images/casino1.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -22,7 +23,7 @@
     position: relative;
     background-image: url('../../images/casino2.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -30,7 +31,7 @@
     position: relative;
     background-image: url('../../images/casino3.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -38,7 +39,7 @@
     position: relative;
     background-image: url('../../images/casino4.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -46,7 +47,7 @@
     position: relative;
     background-image: url('../../images/casino5.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -54,7 +55,7 @@
     position: relative;
     background-image: url('../../images/casino6.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -62,7 +63,7 @@
     position: relative;
     background-image: url('../../images/casino7.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -70,7 +71,7 @@
     position: relative;
     background-image: url('../../images/casino8.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }
@@ -78,7 +79,7 @@
     position: relative;
     background-image: url('../../images/casino9.png');
     background-repeat: no-repeat;
-    width: 420px !important;
+    width: 31% !important;
     height: 310px;
     background-size: cover;
 }

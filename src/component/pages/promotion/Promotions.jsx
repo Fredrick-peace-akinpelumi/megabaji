@@ -13,10 +13,10 @@ const Promotions = () => {
 <nav className="navbar navbar-expand-lg fixed fixed-top" style={{backgroundColor:"rgb(0,93,171)"}}>
   <div className="container gap-3">
     
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1" >
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
+    <div className="collapse navbar-collapse" id="navbarNav1">
       <ul className="navbar-nav spre gap-3">
         {
           ["New Promotions","Slots","Casino","Sport","Lottery","Table","Others"].map((val)=>(

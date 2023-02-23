@@ -44,45 +44,31 @@ const Slot = () => {
   </button>
 </div>
 
-    <div className="container mt-5">
+    <div className="container-fluid mt-5 p-3 ">
         <div className="row">
-        <div className="d-flex flex-wrap gap-5">
+        <div className="d-flex flex-wrap gap-5 justify-content-center">
+            {
+                [
+                    {img:slot1},
+                    {img:slot2},
+                    {img:slot3},
+                    {img:slot4},
+                    {img:slot5},
+                    {img:slot6},
+                    {img:slot7},
+                    {img:slot8},
+                    {img:slot9},
+                    {img:slot10},
+                    {img:slot11},
+                    {img:slot12},
+                
+                ].map((val)=>(
             <div>
-                <img className='w-100' src={slot1} alt="" />
+                <img className='w-100' src={val.img} alt="" />
             </div>
-            <div>
-                <img className='w-100' src={slot2} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot3} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot4} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot5} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot6} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot7} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot8} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot9} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot10} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot11} alt="" />
-            </div>
-            <div>
-                <img className='w-100' src={slot12} alt="" />
-            </div>
+                ))
+            }
+            
         </div>
         </div>
     </div>
